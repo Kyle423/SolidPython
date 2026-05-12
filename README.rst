@@ -125,20 +125,22 @@ Installing SolidPython
 
 - Set up a virtual environment with an older version of ``setuptools``:
 
-    Set up the environment
-
   .. code:: bash
 
       python -m venv solid_env
 
+  .. code:: bash
+
       .\solid_env\Scripts\activate
+
+  .. code:: bash
 
       python -m pip install solidpython setuptools==80.9.0
 
-    (This version of SolidPython uses ``pkg_resources``, which is deprecated and not used in 
-    new versions of ``setuptools``. It can be useful to set up a 
-    `virtual environment <https://docs.python.org/3/tutorial/venv.html>`__ with an older version of ``setuptools`` 
-    for that reason)
+  (This version of SolidPython uses ``pkg_resources``, which is deprecated and 
+  not used in new versions of ``setuptools``. It can be useful to set up a 
+  `virtual environment <https://docs.python.org/3/tutorial/venv.html>`__ with 
+  an older version of ``setuptools`` for that reason)
 
 Using SolidPython
 =================
