@@ -131,15 +131,7 @@ Installing SolidPython
 
       python -m venv solid_env
 
-    Activate the environment
-
-  .. code:: bash
-
       .\solid_env\Scripts\activate
-
-    Install necessary packages in the environment
-
-  .. code:: bash
 
       python -m pip install solidpython setuptools==80.9.0
 
